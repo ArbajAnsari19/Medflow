@@ -1,4 +1,4 @@
-# Medicine E-Commerce Website
+# Medimart (Medicine E-Commerce Website)
 
 This is a full-stack medicine e-commerce website built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This project is built for the Techshila 2024 - Inter Bhawan Tech Competition organised by STC, IIT Roorkee. The website allows users to browse, search, and purchase medicines online as well as manage inventory and controls for the CEO and Store manager roles.
 
