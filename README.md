@@ -51,23 +51,14 @@ This is a full-stack medicine e-commerce website built using the MERN (MongoDB, 
 2. Navigate to the project directory:
 
     ```bash
-    cd Techshila-2024/client
-    cd Techshila-2024/server
+    cd client
+    cd server
     ```
 
 3. Install dependencies:
 
     ```bash
     npm install
-    ```
-
-### Configuration
-
-1. Create a `.env` file in the root directory:
-
-    ```
-    PORT=5000
-    PRIVATE_KEY=your private key for signing jwt
     ```
 
 ### Running the Application
