@@ -9,7 +9,7 @@ const Orders = () => {
     const getOrders = async () => {
       const token = localStorage.getItem("token");
       const response = await fetch(
-        "https://medflow-ecru.vercel.app/?vercelToolbarCode=nRPbND5sXEB8LP2/api/v1/order/getOrders",
+        "https://medflow-1.onrender.com/api/v1/order/getOrders",
         {
           method: "GET",
           headers: {

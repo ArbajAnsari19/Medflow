@@ -29,7 +29,7 @@ function PaymentGateway() {
 
         // creating a new order
         const token = localStorage.getItem("token");
-        const result = await fetch("https://medflow-ecru.vercel.app/?vercelToolbarCode=nRPbND5sXEB8LP2/api/v1/pay", {
+        const result = await fetch("https://medflow-1.onrender.com/api/v1/pay", {
             method: "POST",
             headers: {
                 authorization: `Bearer ${token}`,

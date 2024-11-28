@@ -9,7 +9,7 @@ const InventoryByStore = ({ storeId, storeName }) => {
       try {
         const token = localStorage.getItem("token");
         const response = await fetch(
-          `https://medflow-ecru.vercel.app/?vercelToolbarCode=nRPbND5sXEB8LP2/api/v1/inventory/inventories/${storeId}`,
+          `https://medflow-1.onrender.com/api/v1/inventory/inventories/${storeId}`,
           {
             method: "GET",
             headers: {

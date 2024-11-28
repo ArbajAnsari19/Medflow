@@ -87,7 +87,7 @@ const Cart = ({ remove, removeAll }) => {
 
     // Creating a new order
     const token = localStorage.getItem("token");
-    const result = await fetch("https://medflow-ecru.vercel.app/?vercelToolbarCode=nRPbND5sXEB8LP2/api/v1/pay/orders", {
+    const result = await fetch("https://medflow-1.onrender.com/api/v1/pay/orders", {
       method: "POST",
       headers: {
         authorization: `Bearer ${token}`,
@@ -122,7 +122,7 @@ const Cart = ({ remove, removeAll }) => {
           razorpaySignature: response.razorpay_signature,
         };
 
-        const result = await fetch("https://medflow-ecru.vercel.app/?vercelToolbarCode=nRPbND5sXEB8LP2/api/v1/pay/success", {
+        const result = await fetch("https://medflow-1.onrender.com/api/v1/pay/success", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

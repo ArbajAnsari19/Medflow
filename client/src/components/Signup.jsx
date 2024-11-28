@@ -16,7 +16,7 @@ const Signup = () => {
       window.alert("Select a valid role");
     }
     try {
-      const response = await fetch("https://medflow-ecru.vercel.app/?vercelToolbarCode=nRPbND5sXEB8LP2/api/v1/auth/signup", {
+      const response = await fetch("https://medflow-1.onrender.com/api/v1/auth/signup", {
         method: "POST",
         headers: {
           "Content-type": "application/json",

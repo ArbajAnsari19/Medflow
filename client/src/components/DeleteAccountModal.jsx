@@ -15,7 +15,7 @@ const DeleteAccountModal = () => {
 
     const token = localStorage.getItem("token");
     const response = await fetch(
-      `https://medflow-ecru.vercel.app/?vercelToolbarCode=nRPbND5sXEB8LP2/api/v1/auth/deleteUser/${user.id}`,
+      `https://medflow-1.onrender.com/api/v1/auth/deleteUser/${user.id}`,
       {
         method: "DELETE",
         headers: {

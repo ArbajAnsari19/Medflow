@@ -12,7 +12,7 @@ const JoinStore = () => {
       try {
         const token = localStorage.getItem("token");
         const response = await fetch(
-          "https://medflow-ecru.vercel.app/?vercelToolbarCode=nRPbND5sXEB8LP2/api/v1/store/getStores",
+          "https://medflow-1.onrender.com/api/v1/store/getStores",
           {
             method: "GET",
             headers: {
@@ -40,7 +40,7 @@ const JoinStore = () => {
 
     const token = localStorage.getItem("token");
     const response = await fetch(
-      `https://medflow-ecru.vercel.app/?vercelToolbarCode=nRPbND5sXEB8LP2/api/v1/store/updateStore/${storeId}`,
+      `https://medflow-1.onrender.com/api/v1/store/updateStore/${storeId}`,
       {
         method: "POST",
         headers: {
