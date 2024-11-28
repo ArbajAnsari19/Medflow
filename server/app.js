@@ -15,10 +15,7 @@ app.use(cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
-<<<<<<< HEAD
 
-=======
->>>>>>> 3aaa67ff438728ac574ce1b1c06fe09a6e718cc1
 app.get("/test", (req, res) => {
   res.send("Hello World");
 });
