@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const authRoutes = require("./Routes/authRoutes");
 
 var PORT = process.env.PORT || 4000;
-var connString = process.env.CONNECTION_STRING || "mongodb://localhost:27017";
+var connString = process.env.CONNECTION_STRING || "mongodb+srv://Arbaj19:Arbaj19@arbaj.k56wb.mongodb.net/";
 
 mongoose
   .connect(connString)

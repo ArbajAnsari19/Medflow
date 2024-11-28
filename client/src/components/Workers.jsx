@@ -7,7 +7,7 @@ const Workers = () => {
     const getAllUsers = async () => {
       const token = localStorage.getItem("token");
       const response = await fetch(
-        "http://localhost:8000/api/v1/auth/getUsers",
+        "https://medflow-ecru.vercel.app/?vercelToolbarCode=nRPbND5sXEB8LP2/api/v1/auth/getUsers",
         {
           method: "GET",
           headers: {

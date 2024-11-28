@@ -12,7 +12,7 @@ const ViewStore = () => {
       try {
         const token = localStorage.getItem("token");
         const response = await fetch(
-          `http://localhost:8000/api/v1/store/getStores`,
+          `https://medflow-ecru.vercel.app/?vercelToolbarCode=nRPbND5sXEB8LP2/api/v1/store/getStores`,
           {
             method: "GET",
             headers: {
